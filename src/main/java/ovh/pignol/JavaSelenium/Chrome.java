@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Chrome implements WebBrowser
 {
 	private WebDriver aChromeDriver;
-
+	
 	public Chrome()
 	{	
 		this.aChromeDriver = new ChromeDriver();		
